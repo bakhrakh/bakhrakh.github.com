@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<form name="my_form" action="https://www.ya.ru">
+		<p>Name</p>
+		<input type="text" name="Name"/>
+		<br>
+		<p>E-mail</p>
+		<input type="email" name="E-mail"/>
+		<br>
+		<p>Sex</p>
+		<input type="radio" name="sex" value="male"/> Male
+		<input type="radio" name="sex" value="female"/> Female
+		<br>
+		<p>Current status</p>
+		<input type="checkbox" name="Current status" value="Student"/>Student
+		<br>
+		<input type="checkbox" name="Current status" value="Employed"/>Employed
+		<br>
+		<input type="checkbox" name="Current status" value="Unemployed"/>Unemployed
+		<br>
+		Month nd Year of birth
+		<br>
+		<input type="month">
+		<br>
+		<p>Skills and Technologies</p>
+		<p><select name="skills" id="1">
+			<optgroup label="Tech skills">
+				<option value="HTML">HTML</option>
+				<option value="CSS">CSS</option>
+				<option value="JS">JS</option>
+			</optgroup>
+			<optgroup label="Soft skills">
+				<option value="qq">qq</option>
+				<option value="ww">ww</option>
+				<option value="ee">ee</option>
+			</optgroup>
+		</select>
+		<p/>
+		<br>
+		<p>Photo</p>
+		<input type="file"/>
+		<br>
+		<p>Comments</p>
+		<textarea rows="5" cols="20" name="text"></textarea>
+		<br>
+		<input type="submit" value="Save"/>
+	</form>
+</body>
+</html>
